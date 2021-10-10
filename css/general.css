@@ -165,12 +165,62 @@ h1 {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+    background-color: white;
 }
 
 /* END OUR SERVICES */
 
+/* START LEADING */
 
 
 .leading {
     padding-top: 220px;
+    padding-bottom: 260px;
 }
+
+.leading container {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leading-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leading-text {
+    margin-left: 142px;
+    margin-right: 320px;
+}
+
+.leading-text h2 {
+    font-size: 3.6rem;
+    line-height: 1.55;
+    font-weight: 700;
+    padding-bottom: 59px;
+}
+
+.leading-text p {
+    font-size: 1.8rem;
+    line-height: 1.66;
+    font-weight: 300;
+    padding-bottom: 37px;
+    color: #7D7987;
+}
+
+.leading-button {
+    font-size: 1.8rem;
+    line-height: 3.33;
+    font-weight: 700;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: #E5E5E5;;
+    padding: 4px 40px;
+    background-color: white;
+}
+
+/* END LEADING */
