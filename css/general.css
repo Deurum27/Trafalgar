@@ -224,3 +224,53 @@ h1 {
 }
 
 /* END LEADING */
+
+
+/* START APPS */
+
+.apps container {
+    width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.apps-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.apps-text {
+    width: 400px;
+    margin-left: 140px;
+}
+
+.apps-text h2 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.33;
+    padding-bottom: 63px;
+}
+
+.apps-text p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66;
+    padding-bottom: 60px;
+    color: #7D7987;
+}
+
+.apps-button {
+    font-size: 1.8rem;
+    line-height: 3.33;
+    font-weight: 700;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: #E5E5E5;;
+    padding: 4px 40px;
+    background-color: white;
+}
+
+/* END APPS */
