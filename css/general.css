@@ -418,6 +418,71 @@ h1 {
 
 /* START FOOTER */
 
+.footer {
+    margin-top: 200px;
+    height: 432px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #FFFFFF;
+
+}
+
+.footer container {
+    width: 1600px;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.footer-main {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 124px;
+    padding-bottom: 113px;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.footer-content {
+    margin-right: 140px;
+}
+
+
+.footer a {
+    color: white;
+}
+
+.footer-content a {
+    font-size: 2.4rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.footer-content p {
+    font-size: 1.8rem;
+    line-height: 1.55;
+    font-weight: 300;
+}
+
+.footer-title {
+    font-size: 2rem;
+    line-height: 3;
+    font-weight: 700;
+}
+
+.footer-nav a {
+    font-size: 1.8rem;
+    line-height: 2.1;
+    font-weight: 300;
+}
+
+.footer-nav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 130px;
+}
+
 
 
 
