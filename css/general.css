@@ -279,11 +279,20 @@ h1 {
 
 .feedback {
     margin: 260px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    color: white;
+    padding-top: 64px;
+    padding-bottom: 89px;
+    padding-left: 100px;
+    padding-right: 118px;
 }
 
 .feedback container {
     width: 1120px;
     height: 425px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .feedback-maintext {
@@ -331,3 +340,85 @@ h1 {
     width: 420px;
     height: 120px;
 }
+
+/* END FEEDBACK */
+
+/* START CHECKOUT */
+
+.checkout container {
+    width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.checkout h2 {
+    text-align: center;
+    font-size: 3.6rem;
+    line-height: 1.55;
+    font-weight: 700;
+    margin-bottom: 100px;
+    
+}
+
+.checkout__cards ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.checkout__cards li {
+    width: 350px;
+    height: 512px;
+    margin-right: 35px;
+}
+
+.checkout__cards h3 {
+    font-size: 2.1rem;
+    line-height: 1.52;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-right: 50px;
+}
+
+.checkout__cards p {
+    font-size: 1.6rem;
+    line-height: 1.75;
+    font-weight: 300;
+    color: #7D7987;
+    padding-top: 12px;
+    margin-bottom: 25px;
+}
+
+.checkout__cards a {
+    font-size: 1.7rem;
+    line-height: 1.65;
+    font-weight: 600;
+    color: #4089ED;
+}
+
+.checkout-button {
+    font-size: 1.8rem;
+    line-height: 3.33;
+    font-weight: 700;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: #E5E5E5;;
+    padding: 4px 40px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    margin-top: 69px;
+}
+
+/* END CHECKOUT */
+
+
+/* START FOOTER */
+
+
+
+
+/* END FOOTER */
